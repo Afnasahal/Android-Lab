@@ -28,11 +28,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void Click(View view) {
         final ConstraintLayout mainLayout = findViewById(R.id.main);
-        if(isRed) {
+        if (isRed) {
             mainLayout.setBackgroundColor(Color.WHITE);
-        }else {
+        } else {
             mainLayout.setBackgroundColor(Color.RED);
         }
-        isRed =!isRed;
+        isRed = !isRed;
     }
 }
+
+
